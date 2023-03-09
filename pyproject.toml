@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "metro-tasks"
+version = "0.1.0"
+description = "This project is the task for data engineer job. This load the data from specific path to postgres and run the pipeline"
+authors = ["Usman <usman.mansoor@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ml_model_training_pipeline"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.11.0"
+pandas = "1.5.3"
+numpy =  "1.24.2"
+tensorflow = "^2.11.0"
+loguru = "0.6.0"
+requests = "2.28.2"
+SQLAlchemy = "^2.0.4"
+
+[tool.poetry.dev-dependencies]
+black = "22.12.0"
+isort = "5.12.0"
+pytest = "7.2.1"
+pytest-mock = "3.10.0"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

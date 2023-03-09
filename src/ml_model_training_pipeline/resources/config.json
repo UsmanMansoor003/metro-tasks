@@ -1,0 +1,5 @@
+{
+  "csv_url": "http://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data",
+"col_names": ["MPG", "Cylinders", "Displacement", "Horsepower", "Weight", "Acceleration", "Model_Year", "Origin"],
+  "table_name": "fuel_efficiency_data"
+}
