@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "This project is the task for data engineer job. This load the data from specific path to postgres and run the pipeline"
 authors = ["Usman <usman.mansoor@gmail.com>"]
 readme = "README.md"
-packages = [{include = "ml_model_training_pipeline"}]
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.11.0"

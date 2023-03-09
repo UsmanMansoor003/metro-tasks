@@ -1,3 +1,4 @@
+from src.ml_model_training_pipeline import pipeline_operators
 
 
 def test_run_pipeline_operators(expected_result, mocked_preprocessing, mocked_train_baseline_model, mocked_evaluate_models, mocked_train_dnn_model):
