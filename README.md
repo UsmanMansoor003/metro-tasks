@@ -1,9 +1,9 @@
+# Pipeline for ML Model training 
 
 ## Source Code
 * The repository contain the _src_ folder which contain all the code.
 * pipeline.py is the main file which setup the database and call all the pipeline_operators.
 * pipeline_operators contain the function which call the four pipeline operators (preprocessing, train_baselin_model, train_dnn_model, evaluation_model) sequentially.
-*  
 
 ## Metadata Setup
 * we have created the 4 table in the database.
